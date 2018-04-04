@@ -1,7 +1,7 @@
 #!groovy
 node {
     stage('Git checkout') {
-        git ''
+        git 'https://github.com/stoconnor/automation-framework'
     }
     stage('Smoke') {
         try {
